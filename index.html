@@ -3,28 +3,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  padding: 8px;
-  background-color: #ffffff;
-}
-</style>
 <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <div id="header">
+  <nav id="header">
     <div>
       <a href="">About</a>
       <a href="">Store</a>
@@ -32,42 +14,40 @@ li a {
     <div>
       <a href="">Gmail</a>
       <a href="">Images</a>
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
+      <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
         <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>
-      </svg>
-      <button>Sign In</button>
+      </svg></a>
+      <button style="color: white; background-color: #2b7de9; width: 88px; height: 35px; border-radius: 5px;">Sign in</button>
     </div>
-  </div>
-  <div  id="center">
+  </nav>
+
+  <main>
     <div>
       <img src="images/googlelogo.png">
     </div>
-  </div>
+    <div>
+      <input type="text" style="border-style: solid; border-color: #c8c8c9; border-width: thin; ">
+    </div>
     <div id="center">
-      <input type="text">
+       <button>Google Search</button>
+       <button>I'm Feeling Lucky</button>
     </div>
-    <div id="center">
-      <button>Google Search</button>
-      <button>I'm feeling Lucky</button>
-    </div>
-    
-  </div>
-  <div id="footer">
-    <div>
-      <a href="">About</a>
-      <a href="">Store</a>
-      <a href="">Store</a>
-    </div>
-    <div>
-      <a href="">Store</a>
-    </div>
-    <div>
-      <a href="">About</a>
-      <a href="">Store</a>
-      <a href="">Store</a>
-    </div>
-    
-  </div>
-
+  </main>
   
+
+  <footer>
+    <div>
+      <a href="">Advertising</a>
+      <a href="">Business</a>
+      <a href="">How Search Works</a>
+    </div>
+    <div>
+      <a href="">Privacy</a>
+      <a href="">Terms</a>
+      <a href="">Settings</a>
+    </div>
+    
+  </footer>
+
+</body>  
 </html>
